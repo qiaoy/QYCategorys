@@ -59,13 +59,13 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		66E65E454F3EAED19567A984 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		66E65E454F3EAED19567A984 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B5BE4F1C47463886BD36B352 /* Pods-QYCategorys_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QYCategorys_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QYCategorys_Example/Pods-QYCategorys_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E19F0E1BEE26B3DF9E14B127 /* Pods_QYCategorys_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QYCategorys_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E38381E57D85C6065B5BD8A4 /* QYCategorys.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = QYCategorys.podspec; path = ../QYCategorys.podspec; sourceTree = "<group>"; };
-		EB3EDD3B0A0ACB130F92E150 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E38381E57D85C6065B5BD8A4 /* QYCategorys.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = QYCategorys.podspec; path = ../QYCategorys.podspec; sourceTree = "<group>"; };
+		EB3EDD3B0A0ACB130F92E150 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		EBD0E61806E33EF36618E825 /* Pods-QYCategorys_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QYCategorys_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QYCategorys_Tests/Pods-QYCategorys_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -527,6 +527,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QYCategorys/QYCategorys-Prefix.pch";
 				INFOPLIST_FILE = "QYCategorys/QYCategorys-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -542,6 +543,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QYCategorys/QYCategorys-Prefix.pch";
 				INFOPLIST_FILE = "QYCategorys/QYCategorys-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
