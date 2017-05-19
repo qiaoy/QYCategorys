@@ -7,6 +7,7 @@
 //
 
 #import "QYViewController.h"
+#import "QYCategorys-Prefix.pch"
 
 @interface QYViewController ()
 
@@ -17,6 +18,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+//    [UIColor colorWithhex];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

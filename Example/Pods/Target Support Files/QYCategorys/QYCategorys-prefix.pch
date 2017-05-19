@@ -10,3 +10,5 @@
 #endif
 #endif
 
+
+#import "UIColor+HexString.h"
