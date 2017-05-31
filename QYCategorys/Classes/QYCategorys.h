@@ -6,10 +6,10 @@
 //
 //
 
-#import <Foundation/Foundation.h>
 
+#if __has_include(<QYCategorys/QYCategorys.h>)
+
+#else
 #import "UIColor+HexString.h"
+#endif
 
-@interface QYCategorys : NSObject
-
-@end
