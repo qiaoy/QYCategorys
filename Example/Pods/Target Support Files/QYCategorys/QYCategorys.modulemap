@@ -1,5 +1,5 @@
 framework module QYCategorys {
-  umbrella header "QYCategorys.h"
+  umbrella header "QYCategorys-umbrella.h"
 
   export *
   module * { export * }
