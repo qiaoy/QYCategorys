@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'QYCategorys'
-  s.version          = '0.1.2'
+  s.version          = '0.1.4'
   s.summary          = 'A short description of QYCategorys.'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'QYCategorys/*.{h,m}'
-  s.public_header_files = 'Pod/*.h'
+  s.public_header_files = 'QYCategorys/*.h'
   # s.resource_bundles = {
   #   'QYCategorys' => ['QYCategorys/Assets/*.png']
   # }
