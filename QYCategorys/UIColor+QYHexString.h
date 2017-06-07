@@ -8,8 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIColor (HexString)
+@interface UIColor (QYHexString)
 
+/**
+ RGB(#rgb、0xrgb)
+ RGBA(#rgba、0xrgba)
+ RRGGBB(#rrggbb、0xrrggbb)
+ RRGGBBAA(#rrggbbaa、0xrrggbbaa)
+**/
 + (UIColor *)colorWithHexString:(NSString *)hexStr;
 
 @end

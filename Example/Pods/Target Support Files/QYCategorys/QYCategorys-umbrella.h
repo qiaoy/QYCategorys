@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "QYCategorys.h"
 #import "UIColor+HexString.h"
 
 FOUNDATION_EXPORT double QYCategorysVersionNumber;

@@ -1,5 +1,5 @@
 PODS:
-  - QYCategorys (0.1.3)
+  - QYCategorys (0.1.4)
 
 DEPENDENCIES:
   - QYCategorys (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  QYCategorys: 893fd59f4374a2cfea8d0741861895e1e4898cdb
+  QYCategorys: fd7226049082c7a5de1d5a7927d72bacac05eeab
 
 PODFILE CHECKSUM: 6a6592226686f2ee888f70fffc27812a437759cd
 

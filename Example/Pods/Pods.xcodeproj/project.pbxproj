@@ -13,12 +13,18 @@
 		43A42632A5123E0A999DA285B438A976 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		4D9927DCE75A23B8F43C75EDC8094B09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		5C2555350BAC433948241A89F359DE46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		609C61D103C22000D5FC9909506D2CA7 /* UIColor+HexString.h in Headers */ = {isa = PBXBuildFile; fileRef = 348352D54F12753B0ACD132BE6BE2A47 /* UIColor+HexString.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7BC826AFC51D71C1489198BD6F340FD8 /* QYCategorys-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A5A9B9A6BF81CC351EE34D4B85D0A18 /* QYCategorys-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8B0E91404036AD66EDD86551A707471B /* QYCategorys-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EA428235B6A158E0EFD3FFAE4740F7 /* QYCategorys-dummy.m */; };
-		D4709BF01EE0227500A524FC /* QYCategorys.h in Headers */ = {isa = PBXBuildFile; fileRef = D4709BEF1EE0227500A524FC /* QYCategorys.h */; };
+		75251728A2DB6108F39424168F7AEE4B /* QYCategorys.h in Headers */ = {isa = PBXBuildFile; fileRef = EAD275267D13C63611C758F098C19001 /* QYCategorys.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B724F938FF651C632FD02B590AEE6DA /* UIColor+QYHexString.h in Headers */ = {isa = PBXBuildFile; fileRef = E51F8D0D349F1CDC0D4BAF50712354FE /* UIColor+QYHexString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B0E91404036AD66EDD86551A707471B /* QYCategorys-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDFB0C33D1D47EC38084F150432D23A /* QYCategorys-dummy.m */; };
+		8C84F34204D6ABE558D59CCAC2B2470F /* QYCategorys-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 830A018463B90E89F0E13CEBAEFEBF54 /* QYCategorys-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D48346B71EE7CCFD0027EE01 /* NSString+QYVerify.h in Headers */ = {isa = PBXBuildFile; fileRef = D48346B51EE7CCFD0027EE01 /* NSString+QYVerify.h */; };
+		D48346B81EE7CCFD0027EE01 /* NSString+QYVerify.m in Sources */ = {isa = PBXBuildFile; fileRef = D48346B61EE7CCFD0027EE01 /* NSString+QYVerify.m */; };
+		D48346BB1EE7DBBB0027EE01 /* NSString+QYSize.h in Headers */ = {isa = PBXBuildFile; fileRef = D48346B91EE7DBBB0027EE01 /* NSString+QYSize.h */; };
+		D48346BC1EE7DBBB0027EE01 /* NSString+QYSize.m in Sources */ = {isa = PBXBuildFile; fileRef = D48346BA1EE7DBBB0027EE01 /* NSString+QYSize.m */; };
+		D48346BF1EE7E6D10027EE01 /* UIView+QYPositioning.h in Headers */ = {isa = PBXBuildFile; fileRef = D48346BD1EE7E6D10027EE01 /* UIView+QYPositioning.h */; };
+		D48346C01EE7E6D10027EE01 /* UIView+QYPositioning.m in Sources */ = {isa = PBXBuildFile; fileRef = D48346BE1EE7E6D10027EE01 /* UIView+QYPositioning.m */; };
 		E1F14A38C963A549D0E072D03A1FEFE3 /* Pods-QYCategorys_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFC1EF2AAE0BAFDEE98C8E340B6C6430 /* Pods-QYCategorys_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F27356C0BD886FFFBCB55722820DFDE6 /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C4754C64CAC97C01AB2A54D87845AD3 /* UIColor+HexString.m */; };
+		F27356C0BD886FFFBCB55722820DFDE6 /* UIColor+QYHexString.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8FAF246FC1FCD7FFAA6A9DE711179A /* UIColor+QYHexString.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,38 +38,44 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		005BB764BABA3BDB3715AF3BDB5DBEF4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0BDE7B29A059BD973B61E61B3D2713B3 /* QYCategorys.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = QYCategorys.modulemap; sourceTree = "<group>"; };
-		0C4754C64CAC97C01AB2A54D87845AD3 /* UIColor+HexString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexString.m"; sourceTree = "<group>"; };
 		170F650007CC24D709800BE4A7D0F28E /* QYCategorys.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QYCategorys.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1976899792D74D1ABF517F7D702AE3C5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E0466EE46DEA71B1F8B66DE9DA745C6 /* Pods-QYCategorys_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QYCategorys_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		25608E2F8888AB9BA97A3ECBB8968934 /* Pods-QYCategorys_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-QYCategorys_Tests.modulemap"; sourceTree = "<group>"; };
-		29FA29A1B5269B7DD1AA410AB8BD59B9 /* QYCategorys.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QYCategorys.xcconfig; sourceTree = "<group>"; };
 		3418128367862E2916D28201916D19F8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		348352D54F12753B0ACD132BE6BE2A47 /* UIColor+HexString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexString.h"; sourceTree = "<group>"; };
 		3B67E0ACBF333A0B2B21D69314D238B3 /* Pods-QYCategorys_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QYCategorys_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3E293E2F5B62CA559979EBB90126087B /* Pods-QYCategorys_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QYCategorys_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		59E0B8F0EE00CAF620D7CC61800EEB08 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		735DD3539814D279EF0029247A9F8003 /* Pods-QYCategorys_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QYCategorys_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		77361B287C93C07FC76A952BDBDB0D11 /* QYCategorys.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QYCategorys.xcconfig; sourceTree = "<group>"; };
 		79E9529FC5869733FB068232D7777337 /* Pods-QYCategorys_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QYCategorys_Example-frameworks.sh"; sourceTree = "<group>"; };
+		7E9C8B266857549C4BC2E215C2B0FB1D /* QYCategorys.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = QYCategorys.modulemap; sourceTree = "<group>"; };
+		830A018463B90E89F0E13CEBAEFEBF54 /* QYCategorys-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QYCategorys-umbrella.h"; sourceTree = "<group>"; };
 		8676D93856E1D1DE6BEA9C1B0841BCF3 /* Pods-QYCategorys_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QYCategorys_Tests-resources.sh"; sourceTree = "<group>"; };
 		8895204F21DE3823D9706B02C7BBA3FA /* Pods-QYCategorys_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QYCategorys_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8BDFB0C33D1D47EC38084F150432D23A /* QYCategorys-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QYCategorys-dummy.m"; sourceTree = "<group>"; };
 		8CA2D0EA7BD1914B5F0AD7C8D41DE85A /* Pods-QYCategorys_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QYCategorys_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9A5A9B9A6BF81CC351EE34D4B85D0A18 /* QYCategorys-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QYCategorys-umbrella.h"; sourceTree = "<group>"; };
+		9BF94924D65D4269FF16A58D6BC57643 /* QYCategorys-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QYCategorys-prefix.pch"; sourceTree = "<group>"; };
 		A6146376A127007C5F4178A41EB197B7 /* Pods-QYCategorys_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QYCategorys_Example-dummy.m"; sourceTree = "<group>"; };
 		AE92FAC5ADEB5202FB84A3CFA6A95832 /* Pods-QYCategorys_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QYCategorys_Example-resources.sh"; sourceTree = "<group>"; };
 		B704E8CFE62ED556309C8D53C61ADE63 /* Pods-QYCategorys_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QYCategorys_Tests-dummy.m"; sourceTree = "<group>"; };
 		B84021E9677A17CCF08BCFF30D9B50DF /* Pods-QYCategorys_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-QYCategorys_Example.modulemap"; sourceTree = "<group>"; };
 		C7DBEAFB45CE9EFA0513D418E12922D8 /* Pods_QYCategorys_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QYCategorys_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF942ECC1C302681AC61133F5D3E050A /* Pods-QYCategorys_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QYCategorys_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		D4709BEF1EE0227500A524FC /* QYCategorys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYCategorys.h; sourceTree = "<group>"; };
+		D48346B51EE7CCFD0027EE01 /* NSString+QYVerify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+QYVerify.h"; sourceTree = "<group>"; };
+		D48346B61EE7CCFD0027EE01 /* NSString+QYVerify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+QYVerify.m"; sourceTree = "<group>"; };
+		D48346B91EE7DBBB0027EE01 /* NSString+QYSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+QYSize.h"; sourceTree = "<group>"; };
+		D48346BA1EE7DBBB0027EE01 /* NSString+QYSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+QYSize.m"; sourceTree = "<group>"; };
+		D48346BD1EE7E6D10027EE01 /* UIView+QYPositioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+QYPositioning.h"; sourceTree = "<group>"; };
+		D48346BE1EE7E6D10027EE01 /* UIView+QYPositioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+QYPositioning.m"; sourceTree = "<group>"; };
 		DEC9D1631AEBFFF6009C77B676510393 /* Pods_QYCategorys_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QYCategorys_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3890429AB937314E7DE19E302B0B6B0 /* Pods-QYCategorys_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QYCategorys_Example-umbrella.h"; sourceTree = "<group>"; };
+		E51F8D0D349F1CDC0D4BAF50712354FE /* UIColor+QYHexString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+QYHexString.h"; sourceTree = "<group>"; };
+		EAD275267D13C63611C758F098C19001 /* QYCategorys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QYCategorys.h; sourceTree = "<group>"; };
+		EB8FAF246FC1FCD7FFAA6A9DE711179A /* UIColor+QYHexString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+QYHexString.m"; sourceTree = "<group>"; };
 		F13420AF9A1CC92E902B3B19AA0AA038 /* Pods-QYCategorys_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QYCategorys_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F4A6A9519F4B5F90FA5E9F02415A7AC8 /* QYCategorys-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QYCategorys-prefix.pch"; sourceTree = "<group>"; };
-		F4EA428235B6A158E0EFD3FFAE4740F7 /* QYCategorys-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QYCategorys-dummy.m"; sourceTree = "<group>"; };
 		FA4B36A30E1C8896F9369B1F24261570 /* Pods-QYCategorys_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QYCategorys_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FFC1EF2AAE0BAFDEE98C8E340B6C6430 /* Pods-QYCategorys_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QYCategorys_Tests-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -96,33 +108,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1933FC082B4F8F64F2A4C682B70B7D92 /* QYCategorys */ = {
-			isa = PBXGroup;
-			children = (
-				D4709BEF1EE0227500A524FC /* QYCategorys.h */,
-				348352D54F12753B0ACD132BE6BE2A47 /* UIColor+HexString.h */,
-				0C4754C64CAC97C01AB2A54D87845AD3 /* UIColor+HexString.m */,
-			);
-			path = QYCategorys;
-			sourceTree = "<group>";
-		};
 		1D07BAA7A8D05D96F22C9577BF6C21B9 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A6FB26E47088EAA1FDEED3FEBB794235 /* QYCategorys */,
+				D20102922AC82D3D56C8FED9E7E466C2 /* QYCategorys */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		27027A8BC58C87AECCE72093ACF11848 /* Support Files */ = {
+		271C774F9BFED0ECC2882672FAF60B76 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				005BB764BABA3BDB3715AF3BDB5DBEF4 /* Info.plist */,
-				0BDE7B29A059BD973B61E61B3D2713B3 /* QYCategorys.modulemap */,
-				29FA29A1B5269B7DD1AA410AB8BD59B9 /* QYCategorys.xcconfig */,
-				F4EA428235B6A158E0EFD3FFAE4740F7 /* QYCategorys-dummy.m */,
-				F4A6A9519F4B5F90FA5E9F02415A7AC8 /* QYCategorys-prefix.pch */,
-				9A5A9B9A6BF81CC351EE34D4B85D0A18 /* QYCategorys-umbrella.h */,
+				59E0B8F0EE00CAF620D7CC61800EEB08 /* Info.plist */,
+				7E9C8B266857549C4BC2E215C2B0FB1D /* QYCategorys.modulemap */,
+				77361B287C93C07FC76A952BDBDB0D11 /* QYCategorys.xcconfig */,
+				8BDFB0C33D1D47EC38084F150432D23A /* QYCategorys-dummy.m */,
+				9BF94924D65D4269FF16A58D6BC57643 /* QYCategorys-prefix.pch */,
+				830A018463B90E89F0E13CEBAEFEBF54 /* QYCategorys-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/QYCategorys";
@@ -157,14 +159,20 @@
 			);
 			sourceTree = "<group>";
 		};
-		A6FB26E47088EAA1FDEED3FEBB794235 /* QYCategorys */ = {
+		A8EA4D07FD809DC158C4AEE05F87CD5D /* QYCategorys */ = {
 			isa = PBXGroup;
 			children = (
-				1933FC082B4F8F64F2A4C682B70B7D92 /* QYCategorys */,
-				27027A8BC58C87AECCE72093ACF11848 /* Support Files */,
+				EAD275267D13C63611C758F098C19001 /* QYCategorys.h */,
+				E51F8D0D349F1CDC0D4BAF50712354FE /* UIColor+QYHexString.h */,
+				EB8FAF246FC1FCD7FFAA6A9DE711179A /* UIColor+QYHexString.m */,
+				D48346B51EE7CCFD0027EE01 /* NSString+QYVerify.h */,
+				D48346B61EE7CCFD0027EE01 /* NSString+QYVerify.m */,
+				D48346B91EE7DBBB0027EE01 /* NSString+QYSize.h */,
+				D48346BA1EE7DBBB0027EE01 /* NSString+QYSize.m */,
+				D48346BD1EE7E6D10027EE01 /* UIView+QYPositioning.h */,
+				D48346BE1EE7E6D10027EE01 /* UIView+QYPositioning.m */,
 			);
-			name = QYCategorys;
-			path = ../..;
+			path = QYCategorys;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -203,6 +211,16 @@
 			path = "Target Support Files/Pods-QYCategorys_Tests";
 			sourceTree = "<group>";
 		};
+		D20102922AC82D3D56C8FED9E7E466C2 /* QYCategorys */ = {
+			isa = PBXGroup;
+			children = (
+				A8EA4D07FD809DC158C4AEE05F87CD5D /* QYCategorys */,
+				271C774F9BFED0ECC2882672FAF60B76 /* Support Files */,
+			);
+			name = QYCategorys;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -231,13 +249,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B10E73CB01FBFA276380EE3C145BFD0F /* Headers */ = {
+		C1492CCA1150FAD1AE6833458F4A903C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BC826AFC51D71C1489198BD6F340FD8 /* QYCategorys-umbrella.h in Headers */,
-				609C61D103C22000D5FC9909506D2CA7 /* UIColor+HexString.h in Headers */,
-				D4709BF01EE0227500A524FC /* QYCategorys.h in Headers */,
+				8C84F34204D6ABE558D59CCAC2B2470F /* QYCategorys-umbrella.h in Headers */,
+				75251728A2DB6108F39424168F7AEE4B /* QYCategorys.h in Headers */,
+				7B724F938FF651C632FD02B590AEE6DA /* UIColor+QYHexString.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E10B79E6A9AC55C9B0602540CE784CB /* Pods-QYCategorys_Example-umbrella.h in Headers */,
+				D48346BF1EE7E6D10027EE01 /* UIView+QYPositioning.h in Headers */,
+				D48346BB1EE7DBBB0027EE01 /* NSString+QYSize.h in Headers */,
+				D48346B71EE7CCFD0027EE01 /* NSString+QYVerify.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +296,7 @@
 			buildPhases = (
 				3EBF791B65C24451F2053D9560FC2AFF /* Sources */,
 				464ED93DCBBBB7C9DFCE0C0CE38E2CF6 /* Frameworks */,
-				B10E73CB01FBFA276380EE3C145BFD0F /* Headers */,
+				C1492CCA1150FAD1AE6833458F4A903C /* Headers */,
 			);
 			buildRules = (
 			);
@@ -338,7 +359,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B0E91404036AD66EDD86551A707471B /* QYCategorys-dummy.m in Sources */,
-				F27356C0BD886FFFBCB55722820DFDE6 /* UIColor+HexString.m in Sources */,
+				F27356C0BD886FFFBCB55722820DFDE6 /* UIColor+QYHexString.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +375,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D48346B81EE7CCFD0027EE01 /* NSString+QYVerify.m in Sources */,
+				D48346BC1EE7DBBB0027EE01 /* NSString+QYSize.m in Sources */,
+				D48346C01EE7E6D10027EE01 /* UIView+QYPositioning.m in Sources */,
 				359EF2663E456F69C50484DD943B04AE /* Pods-QYCategorys_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -452,7 +476,7 @@
 		};
 		3EFAD531DFA1DD23F2172DC1BC1CEE80 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29FA29A1B5269B7DD1AA410AB8BD59B9 /* QYCategorys.xcconfig */;
+			baseConfigurationReference = 77361B287C93C07FC76A952BDBDB0D11 /* QYCategorys.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -556,7 +580,7 @@
 		};
 		9B9DE44F69D458E822FBBF40C4CD6C2F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29FA29A1B5269B7DD1AA410AB8BD59B9 /* QYCategorys.xcconfig */;
+			baseConfigurationReference = 77361B287C93C07FC76A952BDBDB0D11 /* QYCategorys.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
