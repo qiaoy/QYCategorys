@@ -12,9 +12,9 @@
 FOUNDATION_EXPORT double QYCategorysVersionNumber;
 FOUNDATION_EXPORT const unsigned char QYCategorysVersionString[];
 #import <QYCategorys/UIColor+QYHexString.h>
-//#import <QYCategorys/NSString+QYVerify.h>
-//#import <QYCategorys/NSString+QYSize.h>
-//#import <QYCategorys/UIView+QYPositioning.h>
+#import <QYCategorys/NSString+QYVerify.h>
+#import <QYCategorys/NSString+QYSize.h>
+#import <QYCategorys/UIView+QYPositioning.h>
 #else
 #import "UIColor+QYHexString.h"
 #import "NSString+QYVerify.h"
@@ -22,3 +22,4 @@ FOUNDATION_EXPORT const unsigned char QYCategorysVersionString[];
 #import "UIView+QYPositioning.h"
 #endif
 #endif
+

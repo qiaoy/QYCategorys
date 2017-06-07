@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5B8C05597E88A9903275DA08 /* Pods_QYCategorys_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E19F0E1BEE26B3DF9E14B127 /* Pods_QYCategorys_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -22,8 +21,9 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		78A8B8998EC0E098ED4AA092 /* libPods-QYCategorys_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51CDD970CF9123E808B0C6C8 /* libPods-QYCategorys_Example.a */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		D99C9B774040F79398E4FECE /* Pods_QYCategorys_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16BC0D951F0DCBFCED82D8F8 /* Pods_QYCategorys_Tests.framework */; };
+		B7C92CBE8A04CF73C6C40432 /* libPods-QYCategorys_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D24E6F9A79DD3407612A7C2D /* libPods-QYCategorys_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +38,8 @@
 
 /* Begin PBXFileReference section */
 		0012FFA6EFD67C3978C24B81 /* Pods-QYCategorys_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QYCategorys_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-QYCategorys_Example/Pods-QYCategorys_Example.release.xcconfig"; sourceTree = "<group>"; };
-		16BC0D951F0DCBFCED82D8F8 /* Pods_QYCategorys_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QYCategorys_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		25EAF7943CCBF83D1903582A /* Pods-QYCategorys_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QYCategorys_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QYCategorys_Tests/Pods-QYCategorys_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		51CDD970CF9123E808B0C6C8 /* libPods-QYCategorys_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QYCategorys_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* QYCategorys_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QYCategorys_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,7 +63,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B5BE4F1C47463886BD36B352 /* Pods-QYCategorys_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QYCategorys_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QYCategorys_Example/Pods-QYCategorys_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E19F0E1BEE26B3DF9E14B127 /* Pods_QYCategorys_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QYCategorys_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D24E6F9A79DD3407612A7C2D /* libPods-QYCategorys_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QYCategorys_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E38381E57D85C6065B5BD8A4 /* QYCategorys.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = QYCategorys.podspec; path = ../QYCategorys.podspec; sourceTree = "<group>"; };
 		EB3EDD3B0A0ACB130F92E150 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		EBD0E61806E33EF36618E825 /* Pods-QYCategorys_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QYCategorys_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QYCategorys_Tests/Pods-QYCategorys_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				5B8C05597E88A9903275DA08 /* Pods_QYCategorys_Example.framework in Frameworks */,
+				78A8B8998EC0E098ED4AA092 /* libPods-QYCategorys_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				D99C9B774040F79398E4FECE /* Pods_QYCategorys_Tests.framework in Frameworks */,
+				B7C92CBE8A04CF73C6C40432 /* libPods-QYCategorys_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +123,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				E19F0E1BEE26B3DF9E14B127 /* Pods_QYCategorys_Example.framework */,
-				16BC0D951F0DCBFCED82D8F8 /* Pods_QYCategorys_Tests.framework */,
+				51CDD970CF9123E808B0C6C8 /* libPods-QYCategorys_Example.a */,
+				D24E6F9A79DD3407612A7C2D /* libPods-QYCategorys_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

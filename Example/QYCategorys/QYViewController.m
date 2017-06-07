@@ -7,7 +7,6 @@
 //
 
 #import "QYViewController.h"
-#import "QYCategorys/QYCategorys-umbrella.h"
 
 @interface QYViewController ()
 
