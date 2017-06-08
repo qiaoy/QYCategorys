@@ -9,12 +9,13 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
+NS_ASSUME_NONNULL_BEGIN
 @interface NSString (QYSize)
 
 /**
  string size with NSLineBreakMode
  */
-- (CGSize)qy_sizeForFont:(UIFont *)font size:(CGSize)size mode:(NSLineBreakMode)lineBreakMode;
+- (CGSize)qy_sizeForFont:(UIFont *)font size:(CGSize)size attributes:(nullable NSDictionary<NSString *, id> *)attributes;
 
 /**
  width
@@ -27,3 +28,4 @@
 - (CGFloat)qy_heightForFont:(UIFont *)font width:(CGFloat)width;
 
 @end
+NS_ASSUME_NONNULL_END
