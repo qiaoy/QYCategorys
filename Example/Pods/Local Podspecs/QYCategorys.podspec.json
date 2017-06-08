@@ -18,6 +18,5 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "QYCategorys/*.{h,m}",
-  "public_header_files": "QYCategorys/*.h"
+  "source_files": "QYCategorys/*.{h,m}"
 }
